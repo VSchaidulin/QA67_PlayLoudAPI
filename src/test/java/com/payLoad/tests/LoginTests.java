@@ -56,6 +56,7 @@ public class LoginTests extends TestBase {
     @Test
     public void loginWithWrongEmailTest() {
 
+
         LoginRequestDto dto =
                 LoginRequestDto.of("wrong@gmail.com", PASSWORD);
 
